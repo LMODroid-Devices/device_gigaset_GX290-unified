@@ -28,5 +28,8 @@ TARGET_SCREEN_WIDTH := 720
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Inherit from gigaset mt6763-common
 $(call inherit-product, device/gigaset/mt6763-common/common.mk)

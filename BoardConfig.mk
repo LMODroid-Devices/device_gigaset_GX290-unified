@@ -27,8 +27,5 @@ TARGET_SCREEN_DENSITY := 320
 TARGET_KERNEL_SOURCE := kernel/gigaset/gx290
 TARGET_KERNEL_CONFIG := gx290_defconfig
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
 # inherit from the proprietary version
 -include vendor/gigaset/GX290-unified/BoardConfigVendor.mk
