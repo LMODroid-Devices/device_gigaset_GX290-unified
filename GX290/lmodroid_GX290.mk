@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Inherit from GX290 device
 $(call inherit-product, device/gigaset/GX290-unified/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, device/gigaset/GX290-unified/device.mk)
 PRODUCT_BRAND := gigaset
 PRODUCT_DEVICE := GX290
 PRODUCT_MANUFACTURER := Gigaset
-PRODUCT_NAME := lineage_GX290
+PRODUCT_NAME := lmodroid_GX290
 PRODUCT_MODEL := GX290
 
 # Build info

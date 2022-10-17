@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "LMODroid-Devices/device_gigaset_mt6763-common",
+    "target_path": "device/gigaset/mt6763-common"
+  },
+  {
+    "repository": "LMODroid-Devices/kernel_gigaset_gx290",
+    "target_path": "kernel/gigaset/gx290"
+  }
+]

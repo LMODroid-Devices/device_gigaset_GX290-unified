@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    lineage_GX290:$(LOCAL_DIR)/GX290/lineage_GX290.mk \
-    lineage_yggdrasilx:$(LOCAL_DIR)/yggdrasilx/lineage_yggdrasilx.mk
+    lmodroid_GX290:$(LOCAL_DIR)/GX290/lmodroid_GX290.mk \
+    lmodroid_yggdrasilx:$(LOCAL_DIR)/yggdrasilx/lmodroid_yggdrasilx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_GX290-user \
-    lineage_GX290-userdebug \
-    lineage_GX290-eng \
-    lineage_yggdrasilx-user \
-    lineage_yggdrasilx-userdebug \
-    lineage_yggdrasilx-eng
+    lmodroid_GX290-user \
+    lmodroid_GX290-userdebug \
+    lmodroid_GX290-eng \
+    lmodroid_yggdrasilx-user \
+    lmodroid_yggdrasilx-userdebug \
+    lmodroid_yggdrasilx-eng
